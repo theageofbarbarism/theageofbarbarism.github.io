@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+}
+html, body {
+  margin: 0; height: 100%; overflow: hidden
+}
+@font-face {
+  font-family: AUTHENTIC Sans;
+  src: url(AUTHENTIC-Sans.otf);
+  font-weight: regular;
+}
+@font-face {
+  font-family: Favorite Song;
+  src: url(Favorite-Song-Regular.otf);
+  font-weight: regular;
+}
+@font-face {
+  font-family: Favorite Song;
+  src: url(Favorite-Song-Italic.otf);
+  font-weight: regular;
+  font-style: italic;
+}
+h1 {
+  color: var(--red);
+  font-family: "Ferry", sans-serif;
+  font-weight: bold;
+  font-size: 14vw;
+  line-height: 11vw;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+p {
+  display: inline-block;
+  font-family: "Parmigiano Text Pro", serif;
+  font-weight: regular;
+  color: black;
+  font-size: 2vw;
+  margin-top: 0px;
+  margin-left: 26px;
+  width: 70vw;
+  hyphens: auto;
+}
+.svgs {
+  width: 98vw;
+  //margin: auto;
+  display: block;
+  max-height: 100vh;
+}
+.column1 {
+  display: inline-block;
+}
+.column2 {
+  display: inline-block;
+  margin-left: 10px;
+  width: 23vw;
+}
+//.mainpage {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 9790px;
+  padding: 31px 73px;
+  width: 1440px;
+}
+//.mainpage .text-1 {
+  letter-spacing: 0px;
+  line-height: 150px;
+  min-height: 265px;
+  text-align: justify;
+  width: 1292px;
+}
+//.mainpage .text-2 {
+  letter-spacing: 0px;
+  line-height: 50px;
+  margin-top: 63px;
+  min-height: 1000px;
+  width: 1286px;
+}
+//.parmigianotextpro-regular-normal-black-50px {
+  color: black;
+  font-family: "Parmigiano Text Pro-Regular", Helvetica, Arial, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --red: rgba(231, 35, 35, 1);
+  --bg: rgba(184, 169, 138, 1);
+}
