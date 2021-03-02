@@ -1,0 +1,181 @@
+body {
+  background-color: black;
+}
+html, body {
+  margin: 0; height: 100%; overflow: hidden
+}
+
+
+.area {
+  float: left;
+  margin-top: 25px;
+  margin-left: 30px;
+  width: 100%;
+  position: relative;
+}
+.next {
+  //float: right;
+  width: 4vw;
+  max-width: 100px;
+  height: 100%;
+  background: #C4C4C4;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+.next:hover {
+  background: var(--blue);
+}
+
+.column1 {
+  width: 80vw;
+  margin-top: 0px;
+  float: left;
+  margin-right: 2%;
+}
+.column2 {
+  width: 40vw;
+  margin-top: 0px;
+  float: right;
+  margin-left: 0%;
+  margin-right: 8vw;
+}
+.column50 {
+  width: 49vw;
+  margin-top: 0px;
+  float: left;
+  margin-right: 2%;
+}
+.s {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  cursor: pointer;
+}
+.s:hover {
+  fon
+}
+.svgs {
+}
+.fig2 {
+  width: 90vw;
+  max-height: 85vh;
+}
+.amazon {
+  position: absolute;
+  left: 9vw;
+  max-height: 95vh;
+}
+.planes {
+  position: absolute;
+  right: 0vw;
+  top: 0vw;
+  max-height: 99vh;
+}
+.billionaires {
+  position: absolute;
+  left: 9vw;
+  top: 15vh;
+  max-height: 100vh;
+  z-index: -100;
+  width: 80vw;
+}
+iframe {
+  height: 110vw;
+  width: 110vw;
+  position: absolute;
+  left: 0;
+  top: 0h;
+  max-height: 100vh;
+  z-index: -100;
+}
+
+h2 {
+  color: var(--red);
+  font-family: "Favorite Song", sans-serif;
+  font-style: regular;
+  font-weight: regular;
+  font-size: 6vw;
+  line-height: 5vw;
+  margin-top: 0px;
+  hyphens: auto;
+}
+h3 {
+  color: var(--red);
+  font-family: "Favorite Song", sans-serif;
+  font-style: regular;
+  font-weight: regular;
+  font-size: 5vw;
+  line-height: 4.1vw;
+  margin-top: 0px;
+  hyphens: auto;
+}
+h4 {
+  color: var(--red);
+  font-family: "Favorite Song", sans-serif;
+  font-style: regular;
+  font-weight: regular;
+  font-size: 3.5vw;
+  line-height: 3vw;
+  margin-top: 0px;
+  hyphens: auto;
+}
+p {
+  font-family: "AUTHENTIC Sans", sans-serif;
+  font-weight: regular;
+  color: var(--blue);
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  margin-top: 0px;
+  margin-left: 0px;
+  hyphens: auto;
+}
+p em {
+  font-family: "Favorite Song", sans-serif;
+}
+.intro {
+  width: 48vw;
+}
+.vid1 {
+  position: absolute;
+  width: 50%;
+  top: 25px;
+  left: 28px;
+  z-index: -100;
+}
+.vid2 {
+  position: absolute;
+  width: 50%;
+  top: 25px;
+  right: 10vw;
+  z-index: -100;
+}
+.bacteria {
+  position: absolute;
+  width: 10%;
+  top: 50vh;
+  right: 40vw;
+  z-index: -100;
+}
+
+
+@font-face {
+  font-family: AUTHENTIC Sans;
+  src: url(AUTHENTIC-Sans.otf);
+  font-weight: regular;
+}
+@font-face {
+  font-family: Favorite Song;
+  src: url(Favorite-Song-Regular.otf);
+  font-weight: regular;
+}
+@font-face {
+  font-family: Favorite Song;
+  src: url(Favorite-Song-Italic.otf);
+  font-weight: regular;
+  font-style: italic;
+}
+:root {
+  --red: #DC0501;
+  --blue: #01acb7;
+}

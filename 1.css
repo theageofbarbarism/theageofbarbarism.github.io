@@ -20,73 +20,34 @@ html, body {
   font-weight: regular;
   font-style: italic;
 }
-h1 {
-  color: var(--red);
-  font-family: "Ferry", sans-serif;
-  font-weight: bold;
-  font-size: 14vw;
-  line-height: 11vw;
-  margin-left: 15px;
-  margin-right: 10px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  text-align: justify;
+.area {
+  float: left;
+  margin-top: 25px;
+  margin-left: 30px;
+  width: 100%;
+  position: relative;
 }
-p {
-  display: inline-block;
-  font-family: "Parmigiano Text Pro", serif;
-  font-weight: regular;
-  color: black;
-  font-size: 2vw;
-  margin-top: 0px;
-  margin-left: 26px;
-  width: 70vw;
-  hyphens: auto;
+.next {
+  //float: right;
+  width: 4vw;
+  max-width: 100px;
+  height: 100%;
+  background: #C4C4C4;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+.next:hover {
+  background: var(--blue);
 }
 .svgs {
   width: 98vw;
   //margin: auto;
   display: block;
-  max-height: 100vh;
+  max-height: 98vh;
 }
-.column1 {
-  display: inline-block;
-}
-.column2 {
-  display: inline-block;
-  margin-left: 10px;
-  width: 23vw;
-}
-//.mainpage {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  height: 9790px;
-  padding: 31px 73px;
-  width: 1440px;
-}
-//.mainpage .text-1 {
-  letter-spacing: 0px;
-  line-height: 150px;
-  min-height: 265px;
-  text-align: justify;
-  width: 1292px;
-}
-//.mainpage .text-2 {
-  letter-spacing: 0px;
-  line-height: 50px;
-  margin-top: 63px;
-  min-height: 1000px;
-  width: 1286px;
-}
-//.parmigianotextpro-regular-normal-black-50px {
-  color: black;
-  font-family: "Parmigiano Text Pro-Regular", Helvetica, Arial, serif;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-}
+
 :root {
-  --red: rgba(231, 35, 35, 1);
-  --bg: rgba(184, 169, 138, 1);
+  --red: #DC0501;
+  --blue: #01acb7;
 }

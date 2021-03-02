@@ -72,6 +72,23 @@ html, body {
   top: 0vw;
   max-height: 99vh;
 }
+.billionaires {
+  position: absolute;
+  left: 9vw;
+  top: 15vh;
+  max-height: 100vh;
+  z-index: -100;
+  width: 80vw;
+}
+iframe {
+  height: 110vw;
+  width: 110vw;
+  position: absolute;
+  left: 0;
+  top: 0h;
+  max-height: 100vh;
+  z-index: -100;
+}
 
 h2 {
   color: var(--red);
