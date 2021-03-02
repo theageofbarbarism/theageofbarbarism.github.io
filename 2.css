@@ -84,6 +84,12 @@ p em {
 .intro {
   width: 48vw;
 }
+.videoprotests {
+  position: absolute;
+  width: 10vw;
+  right: 75vw;
+  z-index: -100;
+}
 
 
 @font-face {
