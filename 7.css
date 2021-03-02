@@ -28,7 +28,7 @@ html, body {
 }
 
 .column1 {
-  width: 45vw;
+  width: 80vw;
   margin-top: 0px;
   float: left;
   margin-right: 2%;
@@ -39,6 +39,12 @@ html, body {
   float: right;
   margin-left: 0%;
   margin-right: 8vw;
+}
+.column50 {
+  width: 50vw;
+  margin-top: 0px;
+  float: left;
+  margin-right: 2%;
 }
 .s {
   position: absolute;
@@ -55,6 +61,11 @@ html, body {
   width: 90vw;
   max-height: 85vh;
 }
+.amazon {
+  position: absolute;
+  left: 9vw;
+  max-height: 95vh;
+}
 
 h3 {
   color: var(--red);
@@ -63,6 +74,16 @@ h3 {
   font-weight: regular;
   font-size: 5vw;
   line-height: 4.1vw;
+  margin-top: 0px;
+  hyphens: auto;
+}
+h4 {
+  color: var(--red);
+  font-family: "Favorite Song", sans-serif;
+  font-style: regular;
+  font-weight: regular;
+  font-size: 3.5vw;
+  line-height: 3vw;
   margin-top: 0px;
   hyphens: auto;
 }
