@@ -49,7 +49,9 @@ html, body {
 .s:hover {
   fon
 }
-.svgs {
+.fig1 {
+  width: 98vw;
+  max-height: 100vh;
 }
 .fig2 {
   width: 90vw;

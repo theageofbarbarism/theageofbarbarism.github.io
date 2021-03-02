@@ -66,7 +66,23 @@ html, body {
   left: 9vw;
   max-height: 95vh;
 }
+.planes {
+  position: absolute;
+  right: 0vw;
+  top: 0vw;
+  max-height: 99vh;
+}
 
+h2 {
+  color: var(--red);
+  font-family: "Favorite Song", sans-serif;
+  font-style: regular;
+  font-weight: regular;
+  font-size: 6vw;
+  line-height: 5vw;
+  margin-top: 0px;
+  hyphens: auto;
+}
 h3 {
   color: var(--red);
   font-family: "Favorite Song", sans-serif;
