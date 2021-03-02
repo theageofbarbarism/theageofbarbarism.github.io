@@ -48,7 +48,7 @@ html, body {
 }
 .s {
   position: absolute;
-  bottom: 0px;
+  bottom: 15px;
   left: 20px;
   cursor: pointer;
 }
@@ -129,6 +129,18 @@ p {
   margin-top: 0px;
   margin-left: 0px;
   hyphens: auto;
+}
+a {
+  font-family: "AUTHENTIC Sans", sans-serif;
+  font-weight: regular;
+  color: var(--blue);
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  hyphens: auto;
+  text-decoration-line: none;
 }
 p em {
   font-family: "Favorite Song", sans-serif;
