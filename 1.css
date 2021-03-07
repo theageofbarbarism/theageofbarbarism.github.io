@@ -48,23 +48,24 @@ html, body {
   max-height: 100vh;
 }
 .continue {
-  transform: rotate(90deg);
-  position: relative;
-  top: 45vh;
-  right: 26.3vw;
-  width: 100vh;
-  margin: 0px;
+  width: 3vw;
+  max-width: 100px;
+  max-height: 99vh;
+  position: absolute;
+  top: 5vh;
+  right: 5px;
   cursor: pointer;
 }
 p {
+  transform: rotate(90deg);
   font-family: "AUTHENTIC Sans", sans-serif;
   font-weight: regular;
-  color: black;
-  font-size: 2.8vw;
+  color: red;
+  font-size: 1vw;
   line-height: 1.2vw;
   margin: 0px;
-  hyphens: auto;
   text-align: center;
+  width: 100%;
 }
 
 :root {
