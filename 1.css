@@ -47,6 +47,25 @@ html, body {
   top: 0px;
   max-height: 100vh;
 }
+.continue {
+  transform: rotate(90deg);
+  position: relative;
+  top: 45vh;
+  right: 26.3vw;
+  width: 100vh;
+  margin: 0px;
+  cursor: pointer;
+}
+p {
+  font-family: "AUTHENTIC Sans", sans-serif;
+  font-weight: regular;
+  color: black;
+  font-size: 2.8vw;
+  line-height: 1.2vw;
+  margin: 0px;
+  hyphens: auto;
+  text-align: center;
+}
 
 :root {
   --red: #DC0501;
