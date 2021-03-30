@@ -71,6 +71,7 @@ html, body {
   right: 0vw;
   top: 0vw;
   max-height: 99vh;
+  z-index: -100;
 }
 .billionaires {
   position: absolute;
